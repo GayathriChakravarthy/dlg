@@ -24,6 +24,7 @@ A number of assumptions have been made -
  - 2 Athena queries are used - one to pick data by max(temperature) and the other weighing in the effect of weather code
  - Weather codes information was derived from [this](https://www.metoffice.gov.uk/services/data/datapoint/code-definitions) link
  - Observation Date was modified to date from string
+ - Event notification to trigger lambda when new files are uploaded to csv_files folder
 ## Improvements
 Several improvements can be made to the solution - 
  - Make data checks more robust 
